@@ -11,6 +11,7 @@ def ping(gateway):
     """
     Returns true if host (str) responds to a ping request
     """
+
     # option for the number of packets as a function on os
     param = '-n' if platform.system().lower()=='windows' else '-c'
 
@@ -24,9 +25,8 @@ def ping(gateway):
 
         for line in ip_list:
             if (line.count("TTL")):
-                print(ip, "--> Active")
-                break  
-    
+                print(ip)
+                break     
 
 # run sweep
 ping(sys.argv[1])
