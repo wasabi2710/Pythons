@@ -1,0 +1,5 @@
+The host is: up
+The port 80 is: open
+The method of scanning is: syn-ack
+There is a [] percent chance that the host is running 1.
+Report Generated 2024-01-01_11-25-07 GMT
