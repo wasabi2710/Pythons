@@ -1,5 +1,0 @@
-The host is: up
-The port 80 is: open
-The method of scanning is: syn-ack
-There is 100 the system is running on Microsoft Windows 10 1809 - 2004
-Report Generated 2024-01-01_12-30-00 GMT
